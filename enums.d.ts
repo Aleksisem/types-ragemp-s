@@ -73,6 +73,29 @@ declare namespace RageEnums {
 		VEHICLE = "vehicle"
 	}
 
+	const enum FaceFeature {
+		NOSE_WIDTH,
+		NOSE_HEIGHT,
+		NOSE_LENGTH,
+		NOSE_BRIDGE,
+		NOSE_TIP,
+		NOSE_BRIDGE_SHIFT,
+		BROW_HEIGHT,
+		BROW_WIDTH,
+		CHEEKBONE_HEIGHT,
+		CHEEKBONE_WIDTH,
+		CHEEKS_WIDTH,
+		EYES,
+		LIPS,
+		JAW_WIDTH,
+		JAW_HEIGHT,
+		CHIN_LENGTH,
+		CHIN_POSITION,
+		CHIN_WIDTH,
+		CHIN_SHAPE,
+		NECK_WIDTH
+	}
+
 	const enum HeadOverlay {
 		BLEMISHES = 0,
     FACIAL_HAIR = 1,
