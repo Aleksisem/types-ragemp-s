@@ -342,7 +342,7 @@ interface PlayerMp extends EntityMp {
    */
   disableVoiceTo(targetPlayer: PlayerMp): void;
   /**
-   * Выполняет полученный код программы.
+   * Выполняет полученный код программы на стороне клиента.
    * @param code код
    */
   eval(code: string): void;
